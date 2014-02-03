@@ -6,7 +6,7 @@ Version: '0.10'
 License: "MIT"
 Vendor: joyent
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: filirom1
+Cartridge-Vendor: gdg-x
 Categories:
   - service
   - web_framework
@@ -19,6 +19,9 @@ Cart-Data:
   - Key: OPENSHIFT_NODEJS_LOG_DIR
     Type: environment
     Description: "Directory to store application log files."
+  - Key: NODE_ENV
+    Type: environment
+    Description: "node.js Environment"
   - Key: OPENSHIFT_TMP_DIR
     Type: environment
     Description: "Directory to store application temporary files."
