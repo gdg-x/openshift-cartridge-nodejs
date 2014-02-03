@@ -6,7 +6,7 @@ Version: '0.10'
 License: "MIT"
 Vendor: joyent
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: gdg-x
+Cartridge-Vendor: gdgx
 Categories:
   - service
   - web_framework
